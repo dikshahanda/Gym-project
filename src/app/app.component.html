@@ -1,0 +1,21 @@
+<!-- <app-header></app-header> -->
+<app-homepage></app-homepage>
+
+<p *ngFor="let product of products">
+    {{product.productId}}
+    {{product.productName}}
+</p>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">productId</th>
+        <th scope="col">productName</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of products">
+        <td> {{product.productId}}</td>
+        <td> {{product.productName}}</td>
+      </tr>
+    </tbody>
+  </table>

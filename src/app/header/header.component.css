@@ -1,0 +1,23 @@
+.head-ul{
+    list-style: none;
+    display: flex;
+}
+.head-ul li{
+    padding: 0px 10px;
+}
+.logo{
+    width: 110px;
+    height: 110px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.head-ul li button{
+    background:#ae0c0a;
+    padding: 10px 30px ;
+    border-radius: 10px;
+}
+/* .head-ul li.btn{
+    padding: 0px;
+} */
